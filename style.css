@@ -27,11 +27,12 @@ h1 {
 }
 
 h2, h3 {
-  font-size: 200%;
+  font-size: 300%;
   text-align: left;
   padding-top: 20px;
   font-family: "Tangerine";
-  stroke: 10px;
+  /* -webkit-text-stroke: 1px black; */
+  /* letter-spacing: .05em; */
 }
 
 header li{
@@ -78,9 +79,13 @@ img {
   height: auto;
 }
 
+/* couleur graisse */
+
 b {
   color: rgb(0, 0, 0);
 }
+
+/* ----- */
 
 img.img_concept_1 {
   display: block;
@@ -108,7 +113,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.concept_1 {
+/* .concept_1 {
   padding-bottom: 50px;
   padding-top: 20px;
   padding-left: 20px;
@@ -117,6 +122,10 @@ html {
 .concept_2 {
   padding-bottom: 70px;
   padding-left: 20px;
+} */
+
+.page_link_container {
+  padding: 50px;
 }
 
 a.page_link {
@@ -136,3 +145,14 @@ svg.icon_arrow {
   vertical-align: middle;
 }
 
+ul {
+  list-style: none;
+}
+
+li.page_link_list {
+  display: grid;
+}
+
+a.page_link {
+  padding-bottom: 20px;
+}
