@@ -27,8 +27,11 @@ h1 {
 }
 
 h2, h3 {
+  font-size: 200%;
   text-align: left;
-  text-decoration: underline;
+  padding-top: 20px;
+  font-family: "Tangerine";
+  stroke: 10px;
 }
 
 header li{
@@ -67,7 +70,7 @@ div.row {
 
 p.p_underground {
   flex: 1;
-  padding: 10px;
+  padding-right: 20px;
 }
 
 img {
@@ -88,6 +91,14 @@ img.img_concept_1 {
   margin-bottom: 50px;
 }
 
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
 
 hr.solid {
   border-top: 2px solid #bbb;
@@ -96,3 +107,32 @@ hr.solid {
 html {
   scroll-behavior: smooth;
 }
+
+.concept_1 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.concept_2 {
+  padding-bottom: 70px;
+  padding-left: 20px;
+}
+
+a.page_link {
+  text-decoration: underline;
+  color: #333;
+}
+
+.page_link:hover {
+  color: #e27a7a;
+}
+
+svg.icon_arrow {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+  fill: #333;
+  vertical-align: middle;
+}
+
